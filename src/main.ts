@@ -9,5 +9,5 @@ function log(msg: String){
 
 
 log(myString + " - " + myNumber.toString());
-log("Foi!!!");
+log("Foi!!!");   
 
