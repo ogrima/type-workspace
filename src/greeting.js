@@ -1,11 +1,3 @@
-var myString = "Testando meu texto";
-var myNumber = 1225;
-/*teste*/
-function log(msg) {
-    console.log(msg);
-}
-log(myString + " - " + myNumber.toString());
-log("Foi!!!");
 var Student = /** @class */ (function () {
     function Student(firstName, middleInitial, lastName) {
         this.firstName = firstName;
@@ -15,8 +7,8 @@ var Student = /** @class */ (function () {
     }
     return Student;
 }());
-function greeter(person) {
-    return "Hello, " + person.firstName + " " + person.lastName;
+function Hello(pessoa) {
+    return "Bom dia, " + pessoa.firstName + " " + pessoa.lastName;
 }
 var user = new Student("Jane", "M.", "User");
-document.body.innerHTML = greeter(user);
+document.body.innerHTML = Hello(user);
