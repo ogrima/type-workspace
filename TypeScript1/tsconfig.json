@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+      "strict": true,
+      "alwaysStrict": true,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "module": "commonjs",
+      "target": "ES6",
+      "outDir": "_dist",
+      "rootDir": "src"
+  }
+}
